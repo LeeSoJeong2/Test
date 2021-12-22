@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Test">
         <activity
+            android:name=".MenuActivity"
+            android:exported="false"
+            android:label="메뉴"
+            android:theme="@style/Theme.AppCompat.Light.Dialog"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
